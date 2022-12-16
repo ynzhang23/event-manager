@@ -84,5 +84,5 @@ contents.each do |row|
   form_letter = erb_template.result(binding)
 
   # Output final result as files into a created directory
-  # save_thank_you_letter(id, form_letter)
+  save_thank_you_letter(id, form_letter)
 end
